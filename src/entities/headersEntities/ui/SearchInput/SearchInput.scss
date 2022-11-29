@@ -1,0 +1,97 @@
+.search-input {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+
+
+  .MuiSvgIcon-root {
+    cursor: pointer;
+  }
+    
+  .MuiAutocomplete-root {
+    width: 100%;
+    height: 100%;
+  }
+  .MuiSvgIcon-root {
+    color: white;
+    margin: 7px 10px;
+  }
+
+  .MuiAutocomplete-option {
+    color: red;
+    text-overflow: ellipsis;
+  }
+
+  .MuiAutocomplete-input::-moz-placeholder {
+    color:  #1A1A1A;
+    opacity: 0.6;
+  }
+
+  .MuiAutocomplete-input::-webkit-input-placeholder {
+    color:  #1A1A1A;
+    opacity: 0.6;
+  }
+
+  .MuiAutocomplete-input {
+    box-shadow: none;
+    text-overflow: ellipsis;
+    border: 1px solid var(--grey);
+    padding: 0 0 0 1rem;
+    margin: 0;
+    font: var(--H4);
+    height: 2rem;
+    width: 100%;
+    border-radius: 4px;
+    color:  var(--black);
+    outline: none;
+    &:focus {
+      border-color: var(--orange);
+    }
+  }
+
+}
+
+.input {
+  border-radius: 4px;
+  width: 100%;
+  height: 100% !important;
+  position: relative;
+
+  input {
+    width: 100%;
+    height: 100% !important;
+  }
+}
+
+.btniocn {
+  position: absolute;
+  right: 0; 
+}
+  
+
+.MuiAutocomplete-listbox{ 
+  padding: 8px 12px 8px 24px !important;
+}
+
+.MuiAutocomplete-option {
+  padding: 16px 0 8px 0px  !important;
+  border-bottom: 1px solid var(--light-grey) ;
+}
+
+.seartchBtn{
+  padding: 8px 12px;
+  border-radius: 0px 4px 4px 0px ;
+  width: 48px;
+  height: 42px;
+}
+
+@media screen and (max-width: 960px) {
+  .search-input  {
+    width: 100%;
+    .MuiAutocomplete-input {
+    width: 100%;
+  }
+  }
+}

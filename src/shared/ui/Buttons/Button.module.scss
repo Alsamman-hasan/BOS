@@ -1,0 +1,68 @@
+.Button {
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  font: var(--H4);
+  text-align: center;
+  &:hover {
+    box-shadow: 0px 2px 6px rgba(26, 26, 26, 0.2);
+  }
+  &:disabled {
+    box-shadow: none;
+  }
+}
+
+.clear {
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+.orange_mix {
+  color: var(--white);
+  background: var(--gradient-orange)
+}
+
+.orange_mix:disabled {
+  background: var(--light-grey)
+}
+
+.outline {
+  border: 1px solid var(--light-grey);
+  background: none;
+}
+
+.secondary {
+  color: var(--orange);
+  background: var(--white);
+  border: 1px solid var(--orange);
+  &:disabled {
+    color: var(--grey);
+    border-color: var(--light-grey);
+  }
+}
+
+.size_s {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 2px;
+}
+
+.size_m {
+  width: 8.25rem;
+  height: 2.75rem;
+  padding: 0.8125rem 2rem;
+}
+
+.size_l {
+  padding: 0.75rem 3.75rem;
+  width: 23.75rem;
+  height: 2.875rem;
+}
+ 
+.circle {
+  padding: 1.75rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}

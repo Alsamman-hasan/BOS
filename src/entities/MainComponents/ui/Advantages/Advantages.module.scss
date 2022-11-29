@@ -1,0 +1,19 @@
+.Advantages {
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5.625rem;
+}
+
+.itemsWrapper {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 0.5rem;
+}
+.Htage {
+  color: var(--black);
+}
+
+.Ptage {
+  color: var(--dark-grey);
+}

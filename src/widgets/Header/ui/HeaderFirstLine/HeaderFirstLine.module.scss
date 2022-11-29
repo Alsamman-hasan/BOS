@@ -1,0 +1,21 @@
+.Wrapper {
+  background: var(--primary-blue);
+  height: var(--first-header-block)
+}
+.HeaderFirstLine {
+  display: grid;
+  grid-template-columns: 4fr 3fr 1fr;
+  
+  padding: 1rem 0;
+  color: var(--white);
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr ;
+}
+
+.lang {
+  display: grid;
+  justify-content: flex-end;
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Helvetica";
+  src: local('Helvetica'), 
+    url("shared/assets/fonts/helvetica_bold.otf") format('otf'),
+    url("shared/assets/fonts/helvetica_boldoblique.otf") format('otf'),
+    url("shared/assets/fonts/helvetica_cyr_boldoblique.ttf") format('ttf'),
+    url("shared/assets/fonts/helvetica_cyr_oblique.ttf") format('ttf'),
+    url("shared/assets/fonts/helvetica_light.otf") format('otf'),
+    url("shared/assets/fonts/helvetica_lightoblique.otf") format('otf'),
+    url("shared/assets/fonts/helvetica_oblique.otf") format('otf'),
+    url("shared/assets/fonts/helvetica_regular.otf") format('otf'),
+}
+
+
+:root {
+  --font-family-main: "Helvetica";
+
+  --font-size-h1: 2rem;
+  --font-line-h1: 2.3125rem; // 37px
+  --H1: var(--font-size-h1)/ var(--font-line-h1) var(--font-family-main);
+
+  --font-size-h2: 1.25rem; // 20px
+  --font-line-h2: 1.5rem; //24px
+  --H2: var(--font-size-h2)/ var(--font-line-h2) var(--font-family-main);
+
+  --font-size-h3: 1rem;
+  --font-line-h3: 1.375rem; // 22px
+  --H3: var(--font-size-h3)/ var(--font-line-h3) var(--font-family-main);
+
+  --font-size-h4: 1rem; //16px
+  --font-line-h4: 1.125rem; // 18px
+  --H4: var(--font-size-h4)/ var(--font-line-h4) var(--font-family-main);
+
+  --font-size-h5: 0.875rem; //14px
+  --font-line-h5: 1rem;     // 16px
+  --H5: var(--font-size-h5)/ var(--font-line-h5) var(--font-family-main);
+
+  --font-size-p1: 1rem;
+  --font-line-p1: 1.375rem; // 22px
+  --P1: var(--font-size-p1)/ var(--font-line-p1) var(--font-family-main);
+
+  --font-size-p2: 0.875rem; //14px
+  --font-line-p2: 1.25rem; // 20px
+  --P2: var(--font-size-p2)/ var(--font-line-p2) var(--font-family-main);
+  
+  --font-size-l: 0.75rem; //12px 
+  --font-line-l: 0.875rem; //14px
+  --L1: var(--font-size-l)/ var(--font-line-l) var(--font-family-main);
+
+  // sizes
+  --first-header-block: 3.125rem;
+  --second-header-block: 5.625rem;
+  --margin-top-third-block : calc(var(--first-header-block) + var(--second-header-block));
+  
+  // colors 
+  --black: #1A1A1A;
+  --dark-grey : #666666;
+  --grey : #B3B3B3;
+  --light-grey : #E5E5E5;
+  --white-dark : #FCFCFC;
+  --white : #FFFFFF;
+  --primary-blue : #4E22CB;
+  --primary-blue-hover : #592FD0;
+  --gradient-orange:  linear-gradient(180deg, #DB9B36 0%, #DF742D 100%);
+  --orange : #DB9B36;
+  --red: #D51E4A;
+  --green : #1E9B39;
+
+  --skeleton-color: #E5E5E5;
+  --skeleton-shadow: rgba(0 0 0 / 20%);
+
+}

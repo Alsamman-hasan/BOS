@@ -1,0 +1,33 @@
+.SecoundFooter {
+  padding: 1.5rem 0 2.25rem 0;
+  display: grid;
+  grid-template-columns: 21% 36% 27% 15%;
+  align-items: center;
+}
+
+.componyName{
+  color: var(--light-grey);
+}
+
+.social {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: flex-end;
+}
+
+.coin {
+  display: flex;
+  justify-content: center;
+  gap: 1.875rem;
+}
+
+.Icon{
+  cursor: pointer;
+  fill: var(--white);
+  &:hover {
+    fill: var(--orange);
+    rect {
+      fill: var(--white);
+    } 
+  }
+}

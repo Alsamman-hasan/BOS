@@ -1,0 +1,40 @@
+.HeaderMenu {
+  margin-top: var(--margin-top-third-block);
+  background: var(--white);
+  height: 80px;
+  border: 1px solid var(--light-grey);
+}
+.items {
+  height:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.ItemWrapper {
+  display: flex;
+  align-items: center;
+  height: 100% ;
+  width: 100%;
+  cursor: pointer;
+
+  &:last-child {
+    justify-content: flex-end !important;
+    border-left: 1px solid var(--light-grey);
+  }
+
+  &:not(:first-child ) {
+    justify-content: center;
+    border-left: 1px solid var(--light-grey);
+  }
+
+  &:hover {
+    .item {
+      color: var(--primary-blue);
+    }
+  }
+}
+.item {
+  color:var(--black);
+  
+}

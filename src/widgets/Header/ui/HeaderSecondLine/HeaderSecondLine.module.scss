@@ -1,0 +1,37 @@
+.Wrapper{
+  background: var(--white-dark);
+  // height: var(--second-header-block);
+}
+
+.HeaderSecondLine {
+  display: grid;
+  grid-template-columns: auto auto minmax(20rem, 38rem) 150px;
+  padding: 1.25rem 0;
+  align-items: center;
+  grid-gap: 1.25rem;
+}
+
+.IconsWrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: flex-end;
+}
+.isScroll {
+  box-shadow: rgb(26 26 26 / 20%) 0px 2px 6px;
+}
+.btnIcons {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height:50px;
+  padding: 12px;
+
+
+  &:hover {
+    fill: var(--primary-blue);
+  }
+
+  &:disabled {
+    fill: var(--grey);
+  }
+}

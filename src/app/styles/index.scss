@@ -1,0 +1,31 @@
+@import "reset";
+@import "variables/global.scss";
+// @import "themes/normal.scss";
+
+
+.app {
+  background: var(--white-dark);
+  min-height: 100vh;
+  font: var(--L);
+  display: grid;
+  grid-template-columns: 214px auto auto;
+  grid-template-areas: 
+  "headers headers headers"
+  "main main main" 
+  "footer footer footer"
+  ;
+}
+
+.header {
+  grid-area: headers;
+  z-index:4;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+

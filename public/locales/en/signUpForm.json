@@ -1,0 +1,14 @@
+{
+  "NAME": "Name",
+  "NAME_ERROR": "Please enter your name",
+  "SURNAME": "Surname",
+  "SURNAME_ERROR": "Please enter your surname",
+  "CONFIRMPASSWORD": "Confirm password",
+  "EMAIL": "E-mail",
+  "EMAIL_ERROR": "It should be a valid email address",
+  "PASSWORD": "Password",
+  "PASSWORD_ERROR": "Please put your password",
+  "CONFIRM_ERROR": "Passwords don't match",
+  "CONSENT": "I consent to the processing of personal data",
+  "RECEIVE_NEWS": "I want to receive news and promotional mailings"
+}
